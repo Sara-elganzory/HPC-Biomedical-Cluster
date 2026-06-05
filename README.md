@@ -1,1 +1,1 @@
-# HPC-Biomedical-Cluster
+# Hybrid HPC + Big Data Cluster
