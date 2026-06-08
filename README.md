@@ -15,7 +15,7 @@ This repository contains the configuration, documentation, and source code for a
 - `distributed_gene_expression_analysis.py`: PySpark-based gene expression classifier.
 - `hostfile`: Node configuration for MPI.
 - `spark-stack.yml`: Docker Compose file for Spark deployment.
-- `/bioinfo_data/`: Contains `leukemia_expression.csv` (Dataset).
+- `/bioinfo_data/`: Contains `breast_cancer_data.csv` (Dataset).
 - `/screenshots/`: Evidence of network verification, MPI execution, Docker node readiness, and Spark job completion.
 - `Final_Report.md`: Detailed methodology and results analysis.
 - `setup_log.txt`: Comprehensive log of terminal commands and troubleshooting steps.
