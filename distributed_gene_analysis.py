@@ -9,9 +9,10 @@ comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 size = comm.Get_size()
 
-# Rank 0 loads the data and broadcasts it to other nodes
+# Rank 0 loads the breast cancer dataset and broadcasts it to other nodes
 if rank == 0:
-    df = pd.read_csv("leukemia_expression.csv")
+    # UPDATED: Using the correct Breast Cancer dataset
+    df = pd.read_csv("breast_cancer_data.csv")
     data = df.iloc[:, :-1].values
     target = df.iloc[:, -1].values
 else:
