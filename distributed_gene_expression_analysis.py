@@ -7,7 +7,6 @@ from pyspark.ml.feature import VectorAssembler
 spark = SparkSession.builder.appName("BioinformaticsML").getOrCreate()
 
 # Load the dataset and assemble features into a vector
-# UPDATED: Using the correct Breast Cancer dataset
 df = spark.read.csv("breast_cancer_data.csv", header=True, inferSchema=True)
 feature_cols = df.columns[:-1]
 assembler = VectorAssembler(inputCols=feature_cols, outputCol="features")
