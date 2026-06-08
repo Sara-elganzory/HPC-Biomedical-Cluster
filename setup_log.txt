@@ -1,0 +1,6 @@
+[LOG] Setup VirtualBox VMs: master, worker1, worker2.
+[LOG] Configured Netplan static IPs: 192.168.56.10/11/12.
+[LOG] SSH passwordless authentication configured.
+[LOG] MPI/OpenMPI installed and verified across all nodes.
+[LOG] Docker Swarm initialized; workers joined successfully.
+[LOG] Spark stack deployed via docker stack deploy.
